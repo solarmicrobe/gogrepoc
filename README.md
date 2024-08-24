@@ -214,10 +214,9 @@ Other arguments:
 
 Requirements
 ------------
-* Python 2.7 / Python 3
+* Python 2.7.9+ / Python 3.6+
 * html5lib 0.99999 or later (https://github.com/html5lib/html5lib-python)
 * requests
-* pyOpenSSL
 I recommend you use `pip` to install the above python modules.
 
   ``pip install html5lib html2text``
@@ -231,6 +230,13 @@ Optional
 Mac:
 * caffeinate support (optional, required to prevent suspend/sleep interrupts)
 * dateutils ( py-dateutils on pip )  (required but only for python < 3.7 )
+
+Docker
+------
+To build a docker container (multi-arch)
+```
+
+```
 
 TODO
 ----

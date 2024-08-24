@@ -32,7 +32,6 @@ import logging.handlers
 import ctypes
 import requests 
 import re
-import OpenSSL
 import platform
 import locale
 import zlib
