@@ -1,0 +1,5 @@
+path:
+  start: main
+  finish: integration/latest
+features:
+  - branch: feature/container-build
