@@ -2,4 +2,5 @@ path:
   start: main
   finish: integration/latest
 features:
+  - branch: fix/safe-manifest-loading
   - branch: feature/container-build
